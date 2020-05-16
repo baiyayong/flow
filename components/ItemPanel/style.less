@@ -1,0 +1,56 @@
+.itempanel {
+  float: left;
+  width: 160px;
+  height: 100%;
+  background: #f0f2f5;
+  border-right: 1px solid #e9e9e9;
+  .dataItem {
+    width: 92%;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    &:hover {
+      border: 1px solid #ccc;
+      cursor: move;
+    }
+  }
+  .el-menu-item,
+  .el-submenu__title {
+    font-size: 14px;
+    height: 42px !important;
+    line-height: 42px !important;
+  }
+  .el-submenu__title {
+    background: #f4f6f9;
+  }
+  .el-menu-item {
+    padding: 0px !important;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 100%;
+    height: 63px !important;
+    display: flex;
+    align-items: center;
+  }
+  .nodeName {
+    width: 90px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+  img {
+    height: 42px;
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    margin: 0 7px 0 11px;
+  }
+}
+.itempanel.itempanellWidth {
+  width: 210px;
+}
+.nodeName.itemWidth {
+  width: 160px;
+}

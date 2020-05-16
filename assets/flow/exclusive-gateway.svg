@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>编组 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="流程设计器" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="流程设计器补充内容" transform="translate(-47.000000, -202.000000)">
+            <g id="编组-23" transform="translate(36.000000, 17.000000)">
+                <g id="编组-22">
+                    <g id="编组-10" transform="translate(12.000000, 186.000000)">
+                        <g id="编组-11">
+                            <rect id="矩形" stroke="#3A84FF" fill="#E2EDFF" x="0" y="0" width="30" height="30" rx="8"></rect>
+                            <path d="M15,16 L13.9520542,25.0089248 L11.968159,23.0262077 L8.99302504,26 L5,22.0096331 L7.97541751,19.0364074 L5.97280898,17.0349908 L15,16 Z M16,17 L17,18.89295 L16,19 L16,17 Z M17,16 L23,16.5329698 L22.3424355,18 L17,16 Z M22.0077684,5 L26,8.99019663 L23.0241842,11.9635065 L25.0272462,13.9652632 L16,15 L17.0476028,5.99081997 L19.0322361,7.97359325 L22.0077684,5 Z M8.65724938,13 L14,15 L8,14.4670302 L8.65724938,13 Z M15,12 L15,14 L14,12.10705 L15,12 Z" id="形状结合" fill="#3A84FF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

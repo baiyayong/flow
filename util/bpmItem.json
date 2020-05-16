@@ -1,0 +1,129 @@
+[{
+		"name": "开始事件",
+		"id": "1",
+		"children": [{
+			"name": "开始节点",
+			"id": "1-1",
+			"type": "start",
+			"icon": "start",
+			"size": "30*30"
+		}, 
+        {
+			"name": "定时节点",
+			"id": "1-2",
+			"type": "timerStart",
+			"icon": "timer-start",
+			"size": "30*30"
+		}, {
+			"name": "消息节点",
+			"id": "1-3",
+			"type": "messageStart",
+			"icon": "message-start",
+			"size": "30*30"
+		},
+         {
+			"name": "信号节点",
+			"id": "1-4",
+			"type": "signalStart",
+			"icon": "signal-start",
+			"size": "30*30"
+		}]
+	},
+	{
+		"name": "活动",
+		"id": "2",
+		"children": [{
+			"name": "审批节点",
+			"id": "2-1",
+			"type": "userTask",
+			"icon": "user-task",
+			"size": "80*44"
+		},  {
+			"name": "自动节点",
+			"id": "2-2",
+			"type": "mailTask",
+			"icon": "mail-task",
+			"size": "80*44"
+		}, {
+			"name": "流程调用",
+			"id": "2-3",
+			"type": "receiveTask",
+			"icon": "receive-task",
+			"size": "80*44"
+		},
+        {
+			"name": "泳道",
+			"id": "2-4",
+			"type": "pool",
+			"icon": "pool",
+			"size": "80*44"
+		},{
+			"name": "子流程",
+			"id": "2-5",
+			"type": "subProcess",
+			"icon": "sub-process",
+			"size": "80*44"
+		}]
+	},
+    {
+		"name": "网关",
+		"id": "3",
+		"children": [{
+			"name": "排他网关",
+			"id": "3-1",
+			"type": "exclusiveGateway",
+			"icon": "exclusive-gateway",
+			"size": "40*40"
+		},
+        {
+			"name": "并行网关",
+			"id": "3-2",
+			"type": "parallelGateway",
+			"icon": "parallel-gateway",
+			"size": "40*40"
+		},
+        {
+			"name": "包容网关",
+			"id": "3-3",
+			"type": "inclusiveGateway",
+			"icon": "inclusive-gateway",
+			"size": "40*40"
+		}]
+	},
+     {
+		"name": "捕获事件",
+		"id": "4",
+		"children": [{
+			"name": "定时节点",
+			"id": "4-1",
+			"type": "timerCatch",
+			"icon": "timer-catch",
+			"size": "50*30"
+		},
+        {
+			"name": "消息节点",
+			"id": "4-2",
+			"type": "messageCatch",
+			"icon": "message-catch",
+			"size": "50*30"
+		},
+        {
+			"name": "信号节点",
+			"id": "4-3",
+			"type": "signalCatch",
+			"icon": "signal-catch",
+			"size": "50*30"
+		}]
+	},
+    	{
+		"name": "结束事件",
+		"id": "5",
+		"children": [{
+			"name": "结束节点",
+			"id": "5-1",
+			"type": "end",
+			"icon": "end",
+			"size": "30*30"
+		}]
+	}
+]

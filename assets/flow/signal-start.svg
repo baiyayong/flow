@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+	.st0{fill:#FCF1E8;}
+	.st1{fill:#F9AA68;}
+	.st2{fill:#FA8C16;}
+</style>
+    <desc>Created with Sketch.</desc>
+    <g id="流程设计器" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-11.000000, -328.000000)" id="编组-25备份-2">
+            <g transform="translate(0.000000, 40.000000)">
+                <g id="编组-5" transform="translate(12.000000, 90.000000)">
+                    <g id="编组-15" transform="translate(0.000000, 199.000000)">
+                        <circle id="椭圆形备份-3" stroke="#37CFC9" fill="#EBFFFE" cx="15" cy="15" r="15"></circle>
+                        <path d="M8.89473684,19.2105263 C9.94122368,19.2105263 10.7894737,20.0588947 10.7894737,21.1052632 C10.7894737,22.1516316 9.94122368,23 8.89473684,23 C7.84836842,23 7,22.1516316 7,21.1052632 C7,20.0588947 7.84836842,19.2105263 8.89473684,19.2105263 L8.89473684,19.2105263 Z M18.3684211,23 L15.3183569,23 C15.3183569,18.4059101 11.5940899,14.6816431 7,14.6816431 L7,11.6315789 C13.2786958,11.6315789 18.3684211,16.7214429 18.3684211,23 L18.3684211,23 Z M21.90625,23 C21.90625,14.7675312 15.2324688,8.09375 7,8.09375 L7,5 C16.9410625,5 25,13.0589375 25,23 L21.90625,23 Z" id="Fill-1" fill="#37CFC9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

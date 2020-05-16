@@ -1,0 +1,80 @@
+.detailPanel {
+  position: absolute;
+  right: -100%;
+  height: 100%;
+  width: 600px;
+  border-left: 1px solid #e9e9e9;
+  transition: all 0.1s ease 0.1s;
+  background: white;
+  > div {
+    height: 100%;
+  }
+  .start,
+  .end {
+    .el-checkbox-group {
+      margin-top: 16px;
+    }
+    textarea {
+      height: 120px;
+    }
+  }
+  .approvalNode {
+    .el-checkbox-group {
+      margin-top: 16px;
+      float: left;
+      margin-left: 10px;
+    }
+    .el-radio-group {
+      margin-top: -7px;
+    }
+    textarea {
+      height: 120px;
+    }
+    .el-form-item {
+      margin-bottom: 0;
+    }
+    .el-input-number--small {
+      margin-top: 10px;
+    }
+  }
+  .autoNode,
+  .callActivityNode {
+    .el-form-item__label {
+      padding: 0 !important;
+    }
+  }
+  .panelTitle {
+    height: 32px;
+    padding-left: 12px;
+    color: #000;
+    line-height: 28px;
+    background: #ebeef2;
+    border-bottom: 1px solid #dce3e8;
+  }
+  .panelBody {
+    height: calc(100% - 32px);
+    width: 100%;
+    position: relative;
+    .tabsPadding {
+      padding-left: 2%;
+    }
+
+    .contentBody {
+      padding: 0px 20px;
+      height: calc(100% - 127px);
+      overflow: auto;
+    }
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: right;
+      padding: 20px;
+      border-top: 1px solid #ccc;
+    }
+  }
+}
+.detailPanel.active {
+  right: 0;
+}
